@@ -1,9 +1,9 @@
-Android Facebook Example
--------------------------
 
-Author: Lorensius W. L. T <lorenz@londatiga.net>
-Website: http://www.londatiga.net
 
-This is an example on how to use Facebook SDK for Android to post status to Facebook wall.
+# Facebook-StatusTapper
 
-Feel free to use it ;)
+With the aid of StatusTapper, one can update their status on Facebook by uploading a photo in character mode that includes editable text.
+
+# Keywords
+
+Using Android Java, XML, Android SDK

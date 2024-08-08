@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background" >
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="161dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/showactivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="120dp" >
+
+                    <TextView
+                        android:id="@+id/showactivityt"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:textColor="#050404"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="135dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/emb_angry" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="140dp"
+                android:background="@drawable/check_in"
+                android:onClick="checkinClicked" />
+        </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidFacebookActivity!</string>
+    <string name="app_name">Status Tapper</string>
+    <string name="wcMessage">Welcome</string>
+    <string name="username">User Name</string>
+    <string name="pass">Password</string>
+
+    <declare-styleable name="HelloGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+</resources>

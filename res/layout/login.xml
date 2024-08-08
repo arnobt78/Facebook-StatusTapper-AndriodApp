@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" 
+    >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="200dp" >
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:textSize="22dp" 
+        android:textColor="#7777"/>
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="40dp"
+        android:text="@string/username"
+        android:textSize="16dp"
+        android:textColor="#050404"
+        android:gravity="center_vertical|center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/usernametb"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:inputType="text"
+        android:width="30dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pass"
+        android:textSize="16dp"
+        android:textColor="#050404"
+        android:gravity="center_vertical|center_horizontal" 
+        android:height="20dp" />
+
+
+    <EditText
+        android:id="@+id/passtb"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:inputType="textPassword"
+        android:width="30dp" 
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login" 
+        android:onClick="LoginClicked"/>
+        
+        
+    </LinearLayout>
+
+    
+   
+</LinearLayout>

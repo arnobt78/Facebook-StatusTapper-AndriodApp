@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:id="@+android:id/list_layout_main" >
+        
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="110dp"
+        android:layout_marginTop="120dp"
+         >
+
+        <ListView
+            android:id="@+android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fadingEdge="none"
+            android:cacheColorHint="#00000000"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/relativeLayout1"
+        android:background="@drawable/previous"
+        android:onClick="previous"
+        android:text="back"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/next"
+        android:onClick="next"
+        android:text="next"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF" />
+
+    
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/previous"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint=" or type your thinking"
+         >
+
+       
+    </EditText>
+
+</RelativeLayout>
